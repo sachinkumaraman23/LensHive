@@ -1,0 +1,29 @@
+.header {
+    padding: 100px 0;
+    background-color: #0f31b7;
+  }
+  
+  .about h2 {
+    font-size: 52px;
+    margin-bottom: 50px;
+    color: lightgreen;
+  }
+  
+  .about h2:hover {
+    color: pink;
+  }
+  
+  .photographer-title {
+    color: yellow;
+    font-size: 36px;
+    font-weight: 200;
+    background: rgba(255, 255, 255, 0.1);
+    width: 400px;
+    margin: 35px auto;
+    text-align: center;
+  }
+  
+  .photographer-title:hover {
+    color: aqua;
+  }
+  

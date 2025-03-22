@@ -1,0 +1,113 @@
+/* HEADER BACKGROUND */
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url("../../images/header.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* NAVIGATION */
+.nav_main {
+  background: black;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Keep the header fixed */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  height: 60px; /* Adjust height */
+}
+
+/* Prevent content from being hidden under the fixed navbar */
+body {
+  padding-top: 60px; /* Same as header height */
+}
+
+
+/* LOGO */
+.nav_logo img {
+  height: 50px;
+}
+
+/* NAV MENU */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* NAVBAR LINKS */
+.navbar-nav li {
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav li:hover {
+  transform: scale(1.1);
+}
+
+/* HAMBURGER MENU */
+.navbar-toggler {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 992px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .collapse.navbar-collapse {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: black;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+  }
+
+  /* ✅ Full height to fit all items */
+  .collapse.navbar-collapse.show .navbar-nav {
+    max-height: 500px; /* Increased height */
+    opacity: 1;
+    padding: 10px 0;
+  }
+
+  .navbar-nav li {
+    padding: 0.5px;
+  }
+}
+
