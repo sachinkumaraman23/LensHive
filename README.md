@@ -9,8 +9,6 @@ You may also see any lint errors in the console.
 
 **Note:**
 
-Your project is a Photography Blog & Resource Hub where users can learn about photography basics, camera techniques, and download helpful resources like PDFs.
+This project is a Photography Blog & Resource Hub where users can learn about photography basics, camera techniques, and download helpful resources like PDFs.
 
-A refined topic for your project could be:
-
-"A Photography Knowledge Hub for Enthusiasts – Blogs, Tips, and Learning Resources"
+**Topic: A Photography Knowledge Hub for Enthusiasts – Blogs, Tips, and Learning Resources**
