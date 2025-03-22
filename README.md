@@ -1,5 +1,5 @@
 ### `Link` 
-Open [https://lens-hive-sk-amans-projects.vercel.app/](https://lens-hive-sk-amans-projects.vercel.app/) to view it in your browser.
+Open [https://lens-hive.vercel.app/](https://lens-hive.vercel.app/) to view it in your browser.
 
 
 
