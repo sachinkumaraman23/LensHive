@@ -7,7 +7,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note:**
 
 Your project is a Photography Blog & Resource Hub where users can learn about photography basics, camera techniques, and download helpful resources like PDFs.
 
