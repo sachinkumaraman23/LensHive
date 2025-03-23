@@ -37,7 +37,7 @@ const About = () => {
     <section className="section-two">
       <div className="container">
         <h2>FOLLOW ME ON INSTAGRAM</h2>
-        <span>@MR.UNMIXED</span>
+        <span>@OFFICIALSKAMAN</span>
         <div className="row insta-imgs">
           <div className="col-md-2">
             <div className="position-relative">
